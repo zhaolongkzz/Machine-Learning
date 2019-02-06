@@ -51,6 +51,12 @@ import matplotlib.pyplot as plt
 # print(lambda x: x ** 2, 0, 2)
 
 
+'''a.txt
+data: 56
+data: 435
+data: 45
+data: 65
+'''
 # Set = []
 # data = open('a.txt')
 # for line in data.readlines():

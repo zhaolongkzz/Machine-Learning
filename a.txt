@@ -1,4 +1,0 @@
-data: 56
-data: 435
-data: 45
-data: 65
