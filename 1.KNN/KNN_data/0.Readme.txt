@@ -1,0 +1,10 @@
+本程序通过一系列数据集，运用k-近邻算法来判断结果
+
+testSet.txt为数据集
+
+classifyPerson为判断函数
+
+==> KNN为基本的k-近邻算法思路
+==> file2Matrix将文本文件转化为矩阵，并将数据进行归一化
+==> dataMatplot将数据集绘制成散点图
+==> classTest为了测试算法的误差

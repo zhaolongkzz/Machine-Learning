@@ -1,0 +1,12 @@
+本程序通过一系列数据集，运用k-近邻算法来判断结果
+通过文件夹中的手写数字的二进制文本，训练以实现判断数字的功能
+
+...\\testDigits\\   为测试数据集
+...\\trainingDigits\\   为训练数据集
+...\\extractDigits\\   为随机抽取的数据集
+
+
+==> KNN 为基本的k-近邻算法思路
+==> writingClassTest 将手写文本进行分类的测试训练
+==> withSklearnTest 基于sklearn模块的k-近邻算法思路
+==> extractDataTest 随机抽取10个文本保存到...\\extractDigits\\ 文件夹下，重新启动程序，结束输入yes可以复原文档

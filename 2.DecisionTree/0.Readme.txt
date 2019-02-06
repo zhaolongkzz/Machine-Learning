@@ -1,0 +1,14 @@
+本程序通过一系列数据集，运用 决策树（香农熵） 来判断结果
+通过决策树预测隐形眼镜的类型，训练以实现预测的功能
+
+classifierStorage.txt 将生成的树结构保存在文档中，以便下一次调用
+lenses.txt 为实例——隐形眼镜的数据集
+
+==> entropy 为基本的香农熵算法
+==> conditionalEntropy 为香农熵中的条件熵来计算不同因素的熵值
+==> ID3_algorithm 建立决策树的结构，根据每层的最优值来划分
+==> treeMatplot 为决策树结构的可视化
+==> treeClassify 为决策树对新样本的预测
+==> storeTree 为保存决策树
+==> loadTree 为调出决策树
+==> Sklearn-Decision Tree 为实例，决策树预测隐形眼镜的类型
